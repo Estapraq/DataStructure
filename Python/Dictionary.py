@@ -1,9 +1,24 @@
 #My youtube channel is @TechWithEsta
 class Dictionary:
      '''
+     phoneNumbers={
       Sami="405-666-2345",
       Huda="406-776-2245",
       Sara="501-686-2445"
+      }
+
+     Age={
+      Sami=40,
+      (Huda,Sara) = 18
+      }
+
+     properties:
+       - Key-Value pairs system 
+       - Ordered
+       - Key doesn't allow duplicates, values can be duplicated 
+       - Key can be any data type or any an immutable data structure 
+                                             ( for example Tuple)
+         values can be any data type or any data structure
     '''
     #Operations
 	#creating a dictionary
@@ -54,8 +69,13 @@ class Dictionary:
      #List(Age)
 
 	#for loop
+     for key, value in Age.items():
+          print(key, value)
+
      for key in Age.keys():
      	print(key)
+
+     print(dir(Age))
 
       
 
